@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Login form</title>
+    </head>
+    <body>
+        <!-- GET, POST method to transfer data from client to server in HTTP Protocol -->
+        <form action = "action_page.php" method="POST">
+            <div class = "container">
+            <label for="email">Email</label><br>
+            <input type = "text" name = "email" placeholder="email" size = "30Px" id="email"><br>
+
+            <label for="password"></label>Password</label><br>
+            <input type = "password" name = "password" placeholder="password" size = "30Px" maxlength="8" id="password"><br>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked = "checked" name = "remember">Remember me 
+            </label> 
+        </div>
+        <div class="container" style="background-color: azure;"
+        <button type = "button" class="cancelbtn">cancel</button>
+        <span class = "password">Forgot<a href="#">password?</a></span>
+        </div>
+        </form>
+    </body>
+</html>
+<!-- Add CSS in the second version of login form -->
